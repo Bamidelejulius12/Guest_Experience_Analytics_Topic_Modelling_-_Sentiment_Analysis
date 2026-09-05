@@ -98,6 +98,7 @@ def data_loader():
     if not ingestion.test_connection():
         raise SystemExit("unable to connect to the database")
     customer_review_data = ingestion.data_merger()
+    # customer_review_data = pd.read_csv(r"C:/Users/DELL-USER\Downloads/Guest_Experience_Analytics_Topic_Modelling_-_Sentiment_Analysis/Testing_data_sample.csv")
     return customer_review_data
 
 # data_loader()

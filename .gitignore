@@ -6,6 +6,9 @@ __pycache__/
 #env
 montra_env/
 .env
+results/
+Testing_data_sample.csv
+
 
 # C extensions
 *.so
