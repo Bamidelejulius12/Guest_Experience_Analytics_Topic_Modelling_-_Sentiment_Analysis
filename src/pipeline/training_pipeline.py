@@ -25,4 +25,4 @@ def Train_model():
         logging.error(f"pipeline error : {e}")
         raise MyException(e, sys)
 
-Train_model()
+# Train_model()
