@@ -8,8 +8,6 @@ montra_env/
 .env
 results/
 Testing_data_sample.csv
-Montra-connection-key.pem
-
 
 # C extensions
 *.so
